@@ -3,12 +3,165 @@
      android:layout_width="match_parent"
      android:layout_height="match_parent"
      android:scrollY="5dip"
-     android:scrollbars="vertical"
-     android:background="#FF0000" >
+     android:scrollbars="vertical" >
     <TableLayout android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
         
+        <TableRow>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kunkka"
+                android:layout_weight="1"/>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bm"
+                android:layout_weight="1"/>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cent"
+                android:layout_weight="1"/>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:src="@drawable/es"
+                android:layout_weight="1"/>
+        </TableRow>
+        
+        <TableRow>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ok"
+                android:layout_weight="1"/>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:src="@drawable/panda"
+                android:layout_weight="1"/>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sevn"
+                android:layout_weight="1"/>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tiny"
+                android:layout_weight="1"/>
+        </TableRow>
+        
+        <TableRow>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tc"
+                android:layout_weight="1"/>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tp"
+                android:layout_weight="1"/>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wisp"
+                android:layout_weight="1"/>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:src="@drawable/alch"
+                android:layout_weight="1"/>
+        </TableRow>
+        
+        <TableRow>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cg"
+                android:layout_weight="1"/>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dk"
+                android:layout_weight="1"/>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sw"
+                android:layout_weight="1"/>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bb"
+                android:layout_weight="1"/>
+        </TableRow>
+        
+        <TableRow>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:src="@drawable/phx"
+                android:layout_weight="1"/>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ymir"
+                android:layout_weight="1"/>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </TableRow>
+        <TableRow>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <ImageView 
+                android:contentDescription="@string/app_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </TableRow>
     </TableLayout>
     
 </ScrollView>
