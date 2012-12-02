@@ -8,7 +8,9 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
         
-        <TableRow>
+        <TableRow
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp">
             <ImageView 
                 android:contentDescription="@string/app_name"
                 android:layout_width="0dip"
@@ -35,7 +37,8 @@
                 android:layout_weight="1"/>
         </TableRow>
         
-        <TableRow>
+        <TableRow
+            android:paddingBottom="15dp">
             <ImageView 
                 android:contentDescription="@string/app_name"
                 android:layout_width="0dip"
@@ -62,7 +65,8 @@
                 android:layout_weight="1"/>
         </TableRow>
         
-        <TableRow>
+        <TableRow
+            android:paddingBottom="15dp">
             <ImageView 
                 android:contentDescription="@string/app_name"
                 android:layout_width="0dip"
@@ -89,7 +93,8 @@
                 android:layout_weight="1"/>
         </TableRow>
         
-        <TableRow>
+        <TableRow
+            android:paddingBottom="15dp">
             <ImageView 
                 android:contentDescription="@string/app_name"
                 android:layout_width="0dip"
@@ -116,7 +121,8 @@
                 android:layout_weight="1"/>
         </TableRow>
         
-        <TableRow>
+        <TableRow
+            android:paddingBottom="15dp">
             <ImageView 
                 android:contentDescription="@string/app_name"
                 android:layout_width="0dip"
