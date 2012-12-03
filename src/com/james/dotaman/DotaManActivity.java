@@ -62,6 +62,7 @@ public class DotaManActivity extends Activity {
 							// TODO Auto-generated method stub
 							Intent	 intent = new Intent();
 							intent.setClass(getApplicationContext(), TavernInnerActivity.class);
+							intent.putExtra("tavernnum", 1);
 							startActivityForResult(intent, 0);
 						}
 					});

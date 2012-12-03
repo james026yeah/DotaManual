@@ -12,27 +12,33 @@
             android:paddingTop="15dp"
             android:paddingBottom="15dp">
             <ImageView 
+                android:id="@+id/mum_1"
                 android:contentDescription="@string/app_name"
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="doClick"
                 android:src="@drawable/kunkka"
                 android:layout_weight="1"/>
             <ImageView 
                 android:contentDescription="@string/app_name"
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
+                android:clickable="true"
                 android:src="@drawable/bm"
                 android:layout_weight="1"/>
             <ImageView 
                 android:contentDescription="@string/app_name"
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
+                android:clickable="true"
                 android:src="@drawable/cent"
                 android:layout_weight="1"/>
             <ImageView 
                 android:contentDescription="@string/app_name"
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
+                android:clickable="true"
                 android:src="@drawable/es"
                 android:layout_weight="1"/>
         </TableRow>
@@ -43,24 +49,28 @@
                 android:contentDescription="@string/app_name"
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
+                android:clickable="true"
                 android:src="@drawable/ok"
                 android:layout_weight="1"/>
             <ImageView 
                 android:contentDescription="@string/app_name"
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
+                android:clickable="true"
                 android:src="@drawable/panda"
                 android:layout_weight="1"/>
             <ImageView 
                 android:contentDescription="@string/app_name"
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
+                android:clickable="true"
                 android:src="@drawable/sevn"
                 android:layout_weight="1"/>
             <ImageView 
                 android:contentDescription="@string/app_name"
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
+                android:clickable="true"
                 android:src="@drawable/tiny"
                 android:layout_weight="1"/>
         </TableRow>
@@ -71,24 +81,28 @@
                 android:contentDescription="@string/app_name"
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
+                android:clickable="true"
                 android:src="@drawable/tc"
                 android:layout_weight="1"/>
             <ImageView 
                 android:contentDescription="@string/app_name"
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
+                android:clickable="true"
                 android:src="@drawable/tp"
                 android:layout_weight="1"/>
             <ImageView 
                 android:contentDescription="@string/app_name"
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
+                android:clickable="true"
                 android:src="@drawable/wisp"
                 android:layout_weight="1"/>
             <ImageView 
                 android:contentDescription="@string/app_name"
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
+                android:clickable="true"
                 android:src="@drawable/alch"
                 android:layout_weight="1"/>
         </TableRow>
@@ -99,24 +113,28 @@
                 android:contentDescription="@string/app_name"
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
+                android:clickable="true"
                 android:src="@drawable/cg"
                 android:layout_weight="1"/>
             <ImageView 
                 android:contentDescription="@string/app_name"
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
+                android:clickable="true"
                 android:src="@drawable/dk"
                 android:layout_weight="1"/>
             <ImageView 
                 android:contentDescription="@string/app_name"
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
+                android:clickable="true"
                 android:src="@drawable/sw"
                 android:layout_weight="1"/>
             <ImageView 
                 android:contentDescription="@string/app_name"
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
+                android:clickable="true"
                 android:src="@drawable/bb"
                 android:layout_weight="1"/>
         </TableRow>
@@ -127,12 +145,14 @@
                 android:contentDescription="@string/app_name"
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
+                android:clickable="true"
                 android:src="@drawable/phx"
                 android:layout_weight="1"/>
             <ImageView 
                 android:contentDescription="@string/app_name"
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
+                android:clickable="true"
                 android:src="@drawable/ymir"
                 android:layout_weight="1"/>
             <ImageView 

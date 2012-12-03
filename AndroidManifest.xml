@@ -21,6 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".TavernInnerActivity"></activity>
+        <activity android:name=".HeroDetailActivity"></activity>
     </application>
 
 </manifest>
