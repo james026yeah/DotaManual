@@ -89,7 +89,7 @@ public class DotaManActivity extends Activity {
                             // TODO Auto-generated method stub
                             Intent intent = new Intent();
                             intent.setClass(getApplicationContext(), TavernInnerActivity.class);
-                            intent.putExtra("tavernnum", 1);
+                            intent.putExtra("tavernnum", 2);
                             startActivityForResult(intent, 0);
                         }
                     });
@@ -100,7 +100,7 @@ public class DotaManActivity extends Activity {
                             // TODO Auto-generated method stub
                             Intent intent = new Intent();
                             intent.setClass(getApplicationContext(), TavernInnerActivity.class);
-                            intent.putExtra("tavernnum", 1);
+                            intent.putExtra("tavernnum", 3);
                             startActivityForResult(intent, 0);
                         }
                     });
@@ -111,7 +111,7 @@ public class DotaManActivity extends Activity {
                             // TODO Auto-generated method stub
                             Intent intent = new Intent();
                             intent.setClass(getApplicationContext(), TavernInnerActivity.class);
-                            intent.putExtra("tavernnum", 1);
+                            intent.putExtra("tavernnum", 4);
                             startActivityForResult(intent, 0);
                         }
                     });
@@ -122,7 +122,7 @@ public class DotaManActivity extends Activity {
                             // TODO Auto-generated method stub
                             Intent intent = new Intent();
                             intent.setClass(getApplicationContext(), TavernInnerActivity.class);
-                            intent.putExtra("tavernnum", 1);
+                            intent.putExtra("tavernnum", 5);
                             startActivityForResult(intent, 0);
                         }
                     });
@@ -133,7 +133,7 @@ public class DotaManActivity extends Activity {
                             // TODO Auto-generated method stub
                             Intent intent = new Intent();
                             intent.setClass(getApplicationContext(), TavernInnerActivity.class);
-                            intent.putExtra("tavernnum", 1);
+                            intent.putExtra("tavernnum", 6);
                             startActivityForResult(intent, 0);
                         }
                     });

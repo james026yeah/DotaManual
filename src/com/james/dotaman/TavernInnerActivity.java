@@ -33,7 +33,28 @@ public class TavernInnerActivity extends Activity {
 			break;
 		}
 		case 2: {
+		    mLayoutId = R.layout.tavern_chocolate_inner_layout;
 			break;
+		}
+		case 3:{
+		    mLayoutId = R.layout.tavern_green_inner_layout;
+		    break;
+		}
+		case 4:{
+		    mLayoutId = R.layout.tavern_darkgreen_inner_layout;
+		    break;
+		}
+		case 5:{
+		    mLayoutId = R.layout.tavern_blue_inner_layout;
+		    break;
+		}
+		case 6:{
+		    mLayoutId = R.layout.tavern_grey_inner_layout;
+		    break;
+		}
+		default:{
+		    mLayoutId = R.layout.tavern_red_inner_layout;
+		    break;
 		}
 		}
 		
