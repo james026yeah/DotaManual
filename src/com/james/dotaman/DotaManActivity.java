@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -34,11 +35,13 @@ public class DotaManActivity extends Activity {
     ImageView mBlueTavern;
     ImageView mGreyTavern;
     private int mCurrentPage;
+    private SQLiteDatabase mSQLiteDatabase = null;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
+        mSQLiteDatabase = this.openOrCreateDatabase("hero.db", MODE_PRIVATE, null);
         setContentView(R.layout.main_layout);
         initViewPager();
     }
