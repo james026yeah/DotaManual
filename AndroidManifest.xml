@@ -29,6 +29,8 @@
         </activity>
         <activity android:name=".TavernInnerActivity"></activity>
         <activity android:name=".HeroDetailActivity"></activity>
+        <activity android:name=".GoodDetailActivity"></activity>
+        <activity android:name=".ShopInnerActivity"></activity>
         <activity android:name="cn.domob.android.ads.DomobActivity" android:theme="@android:style/Theme.Translucent"></activity>
     </application>
 

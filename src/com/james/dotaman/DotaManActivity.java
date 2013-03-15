@@ -3,9 +3,12 @@ package com.james.dotaman;
 
 import java.util.ArrayList;
 
+import android.R.color;
 import android.app.Activity;
 import android.content.Intent;
+import android.content.res.ColorStateList;
 import android.database.sqlite.SQLiteDatabase;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -17,6 +20,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class DotaManActivity extends Activity {
 
@@ -34,6 +38,7 @@ public class DotaManActivity extends Activity {
     ImageView mDarkGreenTavern;
     ImageView mBlueTavern;
     ImageView mGreyTavern;
+    ImageView mShop1;
     private int mCurrentPage;
     private SQLiteDatabase mSQLiteDatabase = null;
 
@@ -41,7 +46,7 @@ public class DotaManActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        mSQLiteDatabase = this.openOrCreateDatabase("hero.db", MODE_PRIVATE, null);
+//        mSQLiteDatabase = this.openOrCreateDatabase("hero.db", MODE_PRIVATE, null);
         setContentView(R.layout.main_layout);
         initViewPager();
     }
@@ -52,13 +57,23 @@ public class DotaManActivity extends Activity {
         mViewPagerDetail = new ArrayList<View>();
 
         View tavernView = inflater.inflate(R.layout.activity_tavern, null);
+        mRedTavern = (ImageView) tavernView.findViewById(R.id.red);
+        mChocolateTavern = (ImageView) tavernView.findViewById(R.id.chocolate);
+        mGreenTavern = (ImageView) tavernView.findViewById(R.id.green);
+        mDarkGreenTavern = (ImageView) tavernView.findViewById(R.id.darkgreen);
+        mBlueTavern = (ImageView) tavernView.findViewById(R.id.blue);
+        mGreyTavern = (ImageView) tavernView.findViewById(R.id.grey);
+        InitTavernList();
         mViewPagerDetail.add(tavernView);
 
-        View goodsView = inflater.inflate(R.layout.activity_goods, null);
+        View goodsView = inflater.inflate(R.layout.activity_shop, null);
+        mShop1 = (ImageView) goodsView.findViewById(R.id.shop1);
+        InitShopList();
         mViewPagerDetail.add(goodsView);
 
         mPagerAdaper = new ViewPagerAdapter(mViewPagerDetail);
         mViewPager.setAdapter(mPagerAdaper);
+        mViewPager.setCurrentItem(0);
 
         mViewPager.setOnPageChangeListener(new OnPageChangeListener() {
 
@@ -66,80 +81,20 @@ public class DotaManActivity extends Activity {
             public void onPageSelected(int position) {
                 // TODO Auto-generated method stub
                 mCurrentPage = position;
+                TextView mHeroTitle = (TextView)findViewById(R.id.herotitle);
+                mHeroTitle.setTextColor(Color.WHITE);
+                TextView mGoodsTitle = (TextView)findViewById(R.id.goodstitle);
+                mGoodsTitle.setTextColor(Color.WHITE);
+                View mHeroIndicator = findViewById(R.id.heroindicator);
+                mHeroIndicator.setBackgroundColor(Color.TRANSPARENT);
+                View mGoodsIndicator = findViewById(R.id.goodsindicator);
+                mGoodsIndicator.setBackgroundColor(Color.TRANSPARENT);
                 if (mCurrentPage == 0) {
-                    mRedTavern = (ImageView) findViewById(R.id.red);
-                    mChocolateTavern = (ImageView) findViewById(R.id.chocolate);
-                    mGreenTavern = (ImageView) findViewById(R.id.green);
-                    mDarkGreenTavern = (ImageView) findViewById(R.id.darkgreen);
-                    mBlueTavern = (ImageView) findViewById(R.id.blue);
-                    mGreyTavern = (ImageView) findViewById(R.id.grey);
-                    
-                    mRedTavern.setOnClickListener(new OnClickListener() {
-
-                        @Override
-                        public void onClick(View v) {
-                            // TODO Auto-generated method stub
-                            Intent intent = new Intent();
-                            intent.setClass(getApplicationContext(), TavernInnerActivity.class);
-                            intent.putExtra("tavernnum", 1);
-                            startActivityForResult(intent, 0);
-                        }
-                    });
-                    mChocolateTavern.setOnClickListener(new OnClickListener() {
-
-                        @Override
-                        public void onClick(View v) {
-                            // TODO Auto-generated method stub
-                            Intent intent = new Intent();
-                            intent.setClass(getApplicationContext(), TavernInnerActivity.class);
-                            intent.putExtra("tavernnum", 2);
-                            startActivityForResult(intent, 0);
-                        }
-                    });
-                    mGreenTavern.setOnClickListener(new OnClickListener() {
-
-                        @Override
-                        public void onClick(View v) {
-                            // TODO Auto-generated method stub
-                            Intent intent = new Intent();
-                            intent.setClass(getApplicationContext(), TavernInnerActivity.class);
-                            intent.putExtra("tavernnum", 3);
-                            startActivityForResult(intent, 0);
-                        }
-                    });
-                    mDarkGreenTavern.setOnClickListener(new OnClickListener() {
-
-                        @Override
-                        public void onClick(View v) {
-                            // TODO Auto-generated method stub
-                            Intent intent = new Intent();
-                            intent.setClass(getApplicationContext(), TavernInnerActivity.class);
-                            intent.putExtra("tavernnum", 4);
-                            startActivityForResult(intent, 0);
-                        }
-                    });
-                    mBlueTavern.setOnClickListener(new OnClickListener() {
-
-                        @Override
-                        public void onClick(View v) {
-                            // TODO Auto-generated method stub
-                            Intent intent = new Intent();
-                            intent.setClass(getApplicationContext(), TavernInnerActivity.class);
-                            intent.putExtra("tavernnum", 5);
-                            startActivityForResult(intent, 0);
-                        }
-                    });
-                    mGreyTavern.setOnClickListener(new OnClickListener() {
-
-                        @Override
-                        public void onClick(View v) {
-                            // TODO Auto-generated method stub
-                            Intent intent = new Intent();
-                            intent.setClass(getApplicationContext(), TavernInnerActivity.class);
-                            intent.putExtra("tavernnum", 6);
-                            startActivityForResult(intent, 0);
-                        }
-                    });
+                	mHeroTitle.setTextColor(Color.YELLOW);
+                	mHeroIndicator.setBackgroundColor(Color.GREEN);
+                } else if (mCurrentPage == 1) {
+                	mGoodsTitle.setTextColor(Color.YELLOW);
+                	mGoodsIndicator.setBackgroundColor(Color.GREEN);
                 }
             }
 
@@ -157,6 +112,90 @@ public class DotaManActivity extends Activity {
         });
     }
 
+    public void InitTavernList() {
+    	
+        
+        mRedTavern.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent intent = new Intent();
+                intent.setClass(getApplicationContext(), TavernInnerActivity.class);
+                intent.putExtra("tavernnum", 1);
+                startActivityForResult(intent, 0);
+            }
+        });
+        mChocolateTavern.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent intent = new Intent();
+                intent.setClass(getApplicationContext(), TavernInnerActivity.class);
+                intent.putExtra("tavernnum", 2);
+                startActivityForResult(intent, 0);
+            }
+        });
+        mGreenTavern.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent intent = new Intent();
+                intent.setClass(getApplicationContext(), TavernInnerActivity.class);
+                intent.putExtra("tavernnum", 3);
+                startActivityForResult(intent, 0);
+            }
+        });
+        mDarkGreenTavern.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent intent = new Intent();
+                intent.setClass(getApplicationContext(), TavernInnerActivity.class);
+                intent.putExtra("tavernnum", 4);
+                startActivityForResult(intent, 0);
+            }
+        });
+        mBlueTavern.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent intent = new Intent();
+                intent.setClass(getApplicationContext(), TavernInnerActivity.class);
+                intent.putExtra("tavernnum", 5);
+                startActivityForResult(intent, 0);
+            }
+        });
+        mGreyTavern.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent intent = new Intent();
+                intent.setClass(getApplicationContext(), TavernInnerActivity.class);
+                intent.putExtra("tavernnum", 6);
+                startActivityForResult(intent, 0);
+            }
+        });
+    }
+    
+    public void InitShopList() {
+    	mShop1.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent();
+                intent.setClass(getApplicationContext(), ShopInnerActivity.class);
+                intent.putExtra("tavernnum", 6);
+                startActivityForResult(intent, 0);
+			}
+		});
+    }
     public class ViewPagerAdapter extends PagerAdapter {
 
         private ArrayList<View> list;

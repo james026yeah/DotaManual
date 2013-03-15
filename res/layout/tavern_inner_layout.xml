@@ -1,0 +1,281 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <View android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#00ff00"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adcontainer"
+        android:layout_below="@+id/header"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollY="5dip"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="力量（近卫酒馆一）"
+                android:textSize="20dp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#bb000000"
+                android:orientation="vertical" >
+
+                <TableRow
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp" >
+
+                    <ImageView
+                        android:id="@+id/mum_1"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
+                        android:src="@drawable/kunkka" />
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/bm" />
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/cent" />
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/es" />
+                </TableRow>
+
+                <TableRow android:paddingBottom="15dp" >
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/ok" />
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/panda" />
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/sevn" />
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/tiny" />
+                </TableRow>
+
+                <TableRow android:paddingBottom="15dp" >
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/tc" />
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/tp" />
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/wisp" />
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/alch" />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="力量（近卫酒馆二）"
+                android:textSize="20dp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#bb000000"
+                android:orientation="vertical" >
+
+                <TableRow
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp" >
+
+                    <ImageView
+                        android:id="@+id/mum_1"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
+                        android:src="@drawable/kunkka" />
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/bm" />
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/cent" />
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/es" />
+                </TableRow>
+
+                <TableRow android:paddingBottom="15dp" >
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/ok" />
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/panda" />
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/sevn" />
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/tiny" />
+                </TableRow>
+
+                <TableRow android:paddingBottom="15dp" >
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/tc" />
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/tp" />
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/wisp" />
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/alch" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/adcontainer"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true">
+    </RelativeLayout>
+
+</RelativeLayout>

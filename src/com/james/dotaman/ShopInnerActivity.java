@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.RelativeLayout;
 
-public class TavernInnerActivity extends Activity {
+public class ShopInnerActivity extends Activity {
 
 	private Intent mToDetailIntent;
 	private String mWhichTavern;

@@ -12,7 +12,7 @@ import android.view.Window;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
-public class HeroDetailActivity extends Activity {
+public class GoodDetailActivity extends Activity {
 
 	RelativeLayout mAdContainer;
 	DomobAdView adView320x50;
@@ -22,7 +22,7 @@ public class HeroDetailActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.hero_detail_layout);
+        setContentView(R.layout.goods_item_activity);
         mAdContainer = (RelativeLayout) findViewById(R.id.adcontainer);
         adView320x50 = new DomobAdView(this, "56OJyM1ouMGoaSnvCK", DomobAdView.INLINE_SIZE_320X50);
         adView320x50.setKeyword("game");
@@ -66,7 +66,6 @@ public class HeroDetailActivity extends Activity {
 			}
 		});
         mAdContainer.addView(adView320x50);
-        mAdContainer.setVisibility(View.GONE);
     }
 
     

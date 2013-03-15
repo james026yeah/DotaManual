@@ -4,6 +4,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingTop="25dp"
+    android:paddingBottom="25dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
     android:background="@drawable/background" >
 
     <LinearLayout android:layout_width="match_parent"
@@ -13,17 +16,19 @@
         <ImageView 
             android:id="@+id/red"
             android:layout_width="0dip"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:clickable="true"
             android:layout_weight="1"
+            android:paddingRight="20dp"
             android:src="@drawable/a"/>
         
         <ImageView 
             android:id="@+id/chocolate"
             android:layout_width="0dip"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:clickable="true"
             android:layout_weight="1"
+            android:paddingLeft="20dp"
             android:src="@drawable/b"/>
         
     </LinearLayout>
@@ -35,17 +40,19 @@
         <ImageView 
             android:id="@+id/green"
             android:layout_width="0dip"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:clickable="true"
             android:layout_weight="1"
+            android:paddingRight="20dp"
             android:src="@drawable/c"/>
         
         <ImageView 
             android:id="@+id/darkgreen"
             android:layout_width="0dip"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:clickable="true"
             android:layout_weight="1"
+            android:paddingLeft="20dp"
             android:src="@drawable/d"/>
         
     </LinearLayout>
@@ -58,18 +65,20 @@
             android:id="@+id/blue"
             android:contentDescription="@string/app_name"
             android:layout_width="0dip"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:clickable="true"
             android:layout_weight="1"
+            android:paddingRight="20dp"
             android:src="@drawable/e"/>
         
         <ImageView 
             android:id="@+id/grey"
             android:contentDescription="@string/app_name"
             android:layout_width="0dip"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:clickable="true"
             android:layout_weight="1"
+            android:paddingLeft="20dp"
             android:src="@drawable/f"/>
         
     </LinearLayout>

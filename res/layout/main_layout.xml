@@ -6,7 +6,47 @@
     android:background="@drawable/background" >
     <LinearLayout android:layout_width="match_parent"
         android:layout_height="30dip"
-        android:background="#FFFFFF">
+        android:background="#aa555555"
+        android:orientation="horizontal">
+        <LinearLayout android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView android:id="@+id/herotitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#FFFF00"
+                android:textSize="20dp"
+                android:text="英雄"/>
+            <View android:id="@+id/heroindicator"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#00ff00"/>
+        </LinearLayout>
+        <View android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#00dddddd"/>
+        <LinearLayout android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView android:id="@+id/goodstitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:text="物品"/>
+            <View android:id="@+id/goodsindicator"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#0000ff00"/>
+        </LinearLayout>
         
     </LinearLayout>
 

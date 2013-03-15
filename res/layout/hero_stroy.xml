@@ -1,0 +1,26 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/sym_call_outgoing"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="For applications that have well-defined sections that need to be locked and others that do
+not, POSIX.1-2008 supports an optional set of functions to lock or unlock a range of process
+addresses. The following are two reasons for having a means to lock down a specific range" />
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="定位："/>
+    </LinearLayout>
+
+</ScrollView>
