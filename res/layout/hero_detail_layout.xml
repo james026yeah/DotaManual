@@ -4,6 +4,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
+    <TextView android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="Kukka"/>
+    <View android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_marginBottom="5dp"
+        android:background="#00FF00"/>
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -56,6 +66,7 @@
             android:id="@+id/story"
             android:layout_width="0dip"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:layout_weight="1"
             android:contentDescription="@string/app_name"
             android:text="英雄故事" />
@@ -63,6 +74,7 @@
         <TextView
             android:layout_width="0dip"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:layout_weight="1"
             android:clickable="true"
             android:contentDescription="@string/app_name"
@@ -71,6 +83,7 @@
         <TextView
             android:layout_width="0dip"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:layout_weight="1"
             android:clickable="true"
             android:contentDescription="@string/app_name"
@@ -79,6 +92,7 @@
         <TextView
             android:layout_width="0dip"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:layout_weight="1"
             android:clickable="true"
             android:contentDescription="@string/app_name"
@@ -136,5 +150,15 @@
         android:layout_marginBottom="5dp"
         android:layout_marginTop="5dp"
         android:background="#FF0000" />
+    
+    <RelativeLayout android:id="@+id/adcontainer"
+        android:layout_width="320dp"       
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#FF0000"></RelativeLayout>
+    <WebView android:id="@+id/detail_description"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FF0000"/>
 
 </LinearLayout>
