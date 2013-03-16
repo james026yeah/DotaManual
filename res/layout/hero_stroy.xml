@@ -9,13 +9,93 @@
         android:layout_height="wrap_content"
         android:orientation="vertical" >
 
-        <TextView android:layout_width="wrap_content"
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="在近位的所有盟军中，只有一个人，在许多大陆上都有着不同但又令人生畏的名字。他的追随者们叫他COCO船长，有的人叫他杰克·斯帕罗，还有的人叫他传说中的水手。但只有极少数的人知道他的真名和含义。他可以驾御和施展洪流的力量，将它们象喷泉一样涌起从而将他们的敌人扔向天空。他华丽的刀锋可以接受大海的庇护，因此它的舞动就如同汹涌的潮水。通过一种以水为形式的空间魔法，他可以把你带回你以前的位置。现在船长驶向了天灾大陆，同时随身带着他那可以激发他和他的战友战斗意志的传说中的朗姆酒。他将为近位军团的胜利铺平道路。他就是KUNKKA，七大洋的统帅。"/>
-        
-        <TextView android:layout_width="match_parent"
+            android:text="在近位的所有盟军中，只有一个人，在许多大陆上都有着不同但又令人生畏的名字。他的追随者们叫他COCO船长，有的人叫他杰克·斯帕罗，还有的人叫他传说中的水手。但只有极少数的人知道他的真名和含义。他可以驾御和施展洪流的力量，将它们象喷泉一样涌起从而将他们的敌人扔向天空。他华丽的刀锋可以接受大海的庇护，因此它的舞动就如同汹涌的潮水。通过一种以水为形式的空间魔法，他可以把你带回你以前的位置。现在船长驶向了天灾大陆，同时随身带着他那可以激发他和他的战友战斗意志的传说中的朗姆酒。他将为近位军团的胜利铺平道路。他就是KUNKKA，七大洋的统帅。"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="定位："/>
+            android:text="英雄定位："
+            android:textColor="#FF00FF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DPS指数 :"
+                android:textColor="#FFFF00" />
+            <View android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:background="#963532"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Push指数:"
+                android:textColor="#FFFF00" />
+            <View android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:background="#37a56b"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gank指数:"
+                android:textColor="#FFFF00" />
+            <View android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:background="#a5a537"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="辅助指数:"
+                android:textColor="#FFFF00" />
+            <View android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:background="#752d87"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="肉盾指数:"
+                android:textColor="#FFFF00" />
+            <View android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:background="#335f9f"/>
+        </LinearLayout>
     </LinearLayout>
 
 </ScrollView>

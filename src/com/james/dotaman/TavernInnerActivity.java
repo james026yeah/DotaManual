@@ -24,6 +24,7 @@ public class TavernInnerActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.tavern_inner_layout);
+		mCurrentTavernId = getIntent().getIntExtra("tavernnum", 0);
 		mAdContainer = (RelativeLayout) findViewById(R.id.adcontainer);
         adView320x50 = new DomobAdView(this, "56OJyM1ouMGoaSnvCK", DomobAdView.INLINE_SIZE_320X50);
         adView320x50.setKeyword("game");
@@ -69,6 +70,10 @@ public class TavernInnerActivity extends Activity {
         mAdContainer.addView(adView320x50);
 	}
 
+	public void initHero() {
+		
+	}
+	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.activity_tavern_list, menu);

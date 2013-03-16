@@ -3,10 +3,112 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    
-    <TextView 
+
+    <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="adfd"/>
+        android:text="技能加点"
+        android:textColor="#FF0000"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="常规加点:"
+        android:textColor="#FFFFFF" />
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="加点描述"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="另类加点:"
+        android:textColor="#FFFFFF" />
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </GridView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="加点描述"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="出装推荐"
+        android:textColor="#FF0000"
+        android:textSize="25dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="出门出装:"
+        android:textColor="#FFFFFF" />
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </GridView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="出装描述"
+        android:textColor="#FFFFFF" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="另类加点:"
+        android:textColor="#FFFFFF" />
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </GridView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="出装描述"
+        android:textColor="#FFFFFF" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="中期核心装:"
+        android:textColor="#FFFFFF" />
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </GridView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="中期核心装描述"
+        android:textColor="#FFFFFF" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="后期神装:"
+        android:textColor="#FFFFFF" />
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </GridView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="后期神装描述"
+        android:textColor="#FFFFFF" />
     
 </LinearLayout>

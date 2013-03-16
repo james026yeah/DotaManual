@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 
 public class HeroDetailActivity extends Activity {
 
@@ -70,7 +71,24 @@ public class HeroDetailActivity extends Activity {
     }
 
     
-    
+    public void doClick (View view) {
+    	ScrollView mHeroDetailScroll = (ScrollView)findViewById(R.id.hero_detail_scroll);
+    	mHeroDetailScroll.removeAllViews();
+    	switch (view.getId()) {
+    	case R.id.hero_story:
+    		mHeroDetailScroll.addView(getLayoutInflater().inflate(R.layout.hero_stroy, null));
+    		break;
+    	case R.id.hero_skills:
+    		mHeroDetailScroll.addView(getLayoutInflater().inflate(R.layout.hero_skills, null));
+    		break;
+    	case R.id.hero_point:
+    		mHeroDetailScroll.addView(getLayoutInflater().inflate(R.layout.hero_points, null));
+    		break;
+    	case R.id.hero_usage:
+    		mHeroDetailScroll.addView(getLayoutInflater().inflate(R.layout.hero_usage, null));
+    		break;
+    	}
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.activity_tavern_list, menu);

@@ -3,11 +3,11 @@ package com.james.dotaprovider2;
 import android.net.Uri;
 import android.provider.BaseColumns;
 
-public final class DotaData {
+public final class DotaHeroData {
 
 	public static final String AUTHORITY = "com.james.provider.HeroInfo";
 	
-	private DotaData(){}
+	private DotaHeroData(){}
 	
 	public static final class HeroInfo implements BaseColumns {
 		private HeroInfo() {}

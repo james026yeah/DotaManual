@@ -3,10 +3,8 @@ package com.james.dotaman;
 
 import java.util.ArrayList;
 
-import android.R.color;
 import android.app.Activity;
 import android.content.Intent;
-import android.content.res.ColorStateList;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -21,6 +19,9 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.james.dotaman.utils.DotaDBHelper;
 
 public class DotaManActivity extends Activity {
 
@@ -41,12 +42,21 @@ public class DotaManActivity extends Activity {
     ImageView mShop1;
     private int mCurrentPage;
     private SQLiteDatabase mSQLiteDatabase = null;
+    DotaDBHelper mDotaDBHelper;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
 //        mSQLiteDatabase = this.openOrCreateDatabase("hero.db", MODE_PRIVATE, null);
+        new Thread(new Runnable() {
+			
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				mDotaDBHelper = new DotaDBHelper(getApplicationContext());
+			}
+		}).start();
         setContentView(R.layout.main_layout);
         initViewPager();
     }
@@ -95,6 +105,7 @@ public class DotaManActivity extends Activity {
                 } else if (mCurrentPage == 1) {
                 	mGoodsTitle.setTextColor(Color.YELLOW);
                 	mGoodsIndicator.setBackgroundColor(Color.GREEN);
+                	Toast.makeText(getApplicationContext(), "物品功能即将开放", 1000).show();
                 }
             }
 

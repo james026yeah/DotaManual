@@ -4,22 +4,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
     
-    <TextView 
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="adfd"/>
-    <LinearLayout android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <ImageView android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:src="@drawable/alch_normal"/>
-        <TextView android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="dafdfgagag\ns\nds\ndf\nd\nd"/>
-        
-    </LinearLayout>
     
     <LinearLayout android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,10 +14,36 @@
             android:src="@drawable/alch_normal"/>
         <TextView android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="dafdfgagag\ns\nds\ndf\nd\nd"/>
+            android:layout_gravity="center_vertical"
+            android:textSize="25dp"
+            android:textColor="#FFFF00"
+            android:text="洗礼(R)"/>
         
     </LinearLayout>
-    
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="立刻恢复一个友方单位的生命值，并对其附近250范围内的敌方单位造成伤害"/>
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="-英雄攻击魔法伤害"/>
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="施法距离-400/500/600/700"/>
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="作用范围-250"/>
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="冷却时间-12"/>
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="魔法消耗-100/120/140/160"/>
     <LinearLayout android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -43,10 +53,36 @@
             android:src="@drawable/alch_normal"/>
         <TextView android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="dafdfgagag\ns\nds\ndf\nd\nd"/>
+            android:layout_gravity="center_vertical"
+            android:textSize="25dp"
+            android:textColor="#FFFF00"
+            android:text="洗礼(R)"/>
         
     </LinearLayout>
-    
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="立刻恢复一个友方单位的生命值，并对其附近250范围内的敌方单位造成伤害"/>
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="-英雄攻击魔法伤害"/>
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="施法距离-400/500/600/700"/>
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="作用范围-250"/>
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="冷却时间-12"/>
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="魔法消耗-100/120/140/160"/>
     <LinearLayout android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -56,8 +92,74 @@
             android:src="@drawable/alch_normal"/>
         <TextView android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="dafdfgagag\ns\nds\ndf\nd\nd"/>
+            android:layout_gravity="center_vertical"
+            android:textSize="25dp"
+            android:textColor="#FFFF00"
+            android:text="洗礼(R)"/>
         
     </LinearLayout>
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="立刻恢复一个友方单位的生命值，并对其附近250范围内的敌方单位造成伤害"/>
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="-英雄攻击魔法伤害"/>
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="施法距离-400/500/600/700"/>
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="作用范围-250"/>
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="冷却时间-12"/>
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="魔法消耗-100/120/140/160"/>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/alch_normal"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="25dp"
+            android:textColor="#FFFF00"
+            android:text="洗礼(R)"/>
+        
+    </LinearLayout>
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="立刻恢复一个友方单位的生命值，并对其附近250范围内的敌方单位造成伤害"/>
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="-英雄攻击魔法伤害"/>
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="施法距离-400/500/600/700"/>
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="作用范围-250"/>
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="冷却时间-12"/>
+    <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="魔法消耗-100/120/140/160"/>
     
 </LinearLayout>
