@@ -5,6 +5,8 @@ import cn.domob.android.ads.DomobAdView;
 import cn.domob.android.ads.DomobSplashAd;
 import cn.domob.android.ads.DomobAdManager.ErrorCode;
 import android.app.Activity;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -17,6 +19,8 @@ public class HeroDetailActivity extends Activity {
 
 	RelativeLayout mAdContainer;
 	DomobAdView adView320x50;
+	private SQLiteDatabase mHeroDatabase;
+	private Cursor mCurrentHeroCursor;
 
 	
     @Override
@@ -24,6 +28,7 @@ public class HeroDetailActivity extends Activity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.hero_detail_layout);
+        mHeroDatabase = this.openOrCreateDatabase("test.db", MODE_PRIVATE, null);
         mAdContainer = (RelativeLayout) findViewById(R.id.adcontainer);
         adView320x50 = new DomobAdView(this, "56OJyM1ouMGoaSnvCK", DomobAdView.INLINE_SIZE_320X50);
         adView320x50.setKeyword("game");

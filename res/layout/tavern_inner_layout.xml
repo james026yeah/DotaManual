@@ -41,7 +41,7 @@
                     android:paddingTop="15dp" >
 
                     <ImageView
-                        android:id="@+id/mum_1"
+                        android:id="@+id/num_1"
                         android:layout_width="0dip"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -51,97 +51,119 @@
                         android:src="@drawable/hero_icon_back" />
 
                     <ImageView
+                        android:id="@+id/num_2"
                         android:layout_width="0dip"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
                         android:src="@drawable/hero_icon_back" />
 
                     <ImageView
+                        android:id="@+id/num_3"
                         android:layout_width="0dip"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
                         android:src="@drawable/hero_icon_back" />
 
                     <ImageView
+                        android:id="@+id/num_4"
                         android:layout_width="0dip"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/hero_icon_back" />
-                </TableRow>
-
-                <TableRow android:paddingBottom="15dp" >
-
-                    <ImageView
-                        android:layout_width="0dip"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:clickable="true"
-                        android:contentDescription="@string/app_name"
-                        android:src="@drawable/hero_icon_back" />
-
-                    <ImageView
-                        android:layout_width="0dip"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:clickable="true"
-                        android:contentDescription="@string/app_name"
-                        android:src="@drawable/hero_icon_back" />
-
-                    <ImageView
-                        android:layout_width="0dip"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:clickable="true"
-                        android:contentDescription="@string/app_name"
-                        android:src="@drawable/hero_icon_back" />
-
-                    <ImageView
-                        android:layout_width="0dip"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:clickable="true"
-                        android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
                         android:src="@drawable/hero_icon_back" />
                 </TableRow>
 
                 <TableRow android:paddingBottom="15dp" >
 
                     <ImageView
+                        android:id="@+id/num_5"
                         android:layout_width="0dip"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
                         android:src="@drawable/hero_icon_back" />
 
                     <ImageView
+                        android:id="@+id/num_6"
                         android:layout_width="0dip"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
                         android:src="@drawable/hero_icon_back" />
 
                     <ImageView
+                        android:id="@+id/num_7"
                         android:layout_width="0dip"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
                         android:src="@drawable/hero_icon_back" />
 
                     <ImageView
+                        android:id="@+id/num_8"
                         android:layout_width="0dip"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
+                        android:src="@drawable/hero_icon_back" />
+                </TableRow>
+
+                <TableRow android:paddingBottom="15dp" >
+
+                    <ImageView
+                        android:id="@+id/num_9"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
+                        android:src="@drawable/hero_icon_back" />
+
+                    <ImageView
+                        android:id="@+id/num_10"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
+                        android:src="@drawable/hero_icon_back" />
+
+                    <ImageView
+                        android:id="@+id/num_11"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
+                        android:src="@drawable/hero_icon_back" />
+
+                    <ImageView
+                        android:id="@+id/num_12"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
                         android:src="@drawable/hero_icon_back" />
                 </TableRow>
             </TableLayout>
@@ -165,7 +187,7 @@
                     android:paddingTop="15dp" >
 
                     <ImageView
-                        android:id="@+id/mum_1"
+                        android:id="@+id/num_13"
                         android:layout_width="0dip"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -175,97 +197,119 @@
                         android:src="@drawable/hero_icon_back" />
 
                     <ImageView
+                        android:id="@+id/num_14"
                         android:layout_width="0dip"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
                         android:src="@drawable/hero_icon_back" />
 
                     <ImageView
+                        android:id="@+id/num_15"
                         android:layout_width="0dip"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
                         android:src="@drawable/hero_icon_back" />
 
                     <ImageView
+                        android:id="@+id/num_16"
                         android:layout_width="0dip"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/hero_icon_back" />
-                </TableRow>
-
-                <TableRow android:paddingBottom="15dp" >
-
-                    <ImageView
-                        android:layout_width="0dip"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:clickable="true"
-                        android:contentDescription="@string/app_name"
-                        android:src="@drawable/hero_icon_back" />
-
-                    <ImageView
-                        android:layout_width="0dip"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:clickable="true"
-                        android:contentDescription="@string/app_name"
-                        android:src="@drawable/hero_icon_back" />
-
-                    <ImageView
-                        android:layout_width="0dip"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:clickable="true"
-                        android:contentDescription="@string/app_name"
-                        android:src="@drawable/hero_icon_back" />
-
-                    <ImageView
-                        android:layout_width="0dip"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:clickable="true"
-                        android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
                         android:src="@drawable/hero_icon_back" />
                 </TableRow>
 
                 <TableRow android:paddingBottom="15dp" >
 
                     <ImageView
+                        android:id="@+id/num_17"
                         android:layout_width="0dip"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
                         android:src="@drawable/hero_icon_back" />
 
                     <ImageView
+                        android:id="@+id/num_18"
                         android:layout_width="0dip"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
                         android:src="@drawable/hero_icon_back" />
 
                     <ImageView
+                        android:id="@+id/num_19"
                         android:layout_width="0dip"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
                         android:src="@drawable/hero_icon_back" />
 
                     <ImageView
+                        android:id="@+id/num_20"
                         android:layout_width="0dip"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
+                        android:src="@drawable/hero_icon_back" />
+                </TableRow>
+
+                <TableRow android:paddingBottom="15dp" >
+
+                    <ImageView
+                        android:id="@+id/num_21"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
+                        android:src="@drawable/hero_icon_back" />
+
+                    <ImageView
+                        android:id="@+id/num_22"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
+                        android:src="@drawable/hero_icon_back" />
+
+                    <ImageView
+                        android:id="@+id/num_23"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
+                        android:src="@drawable/hero_icon_back" />
+
+                    <ImageView
+                        android:id="@+id/num_24"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:onClick="doClick"
                         android:src="@drawable/hero_icon_back" />
                 </TableRow>
             </TableLayout>

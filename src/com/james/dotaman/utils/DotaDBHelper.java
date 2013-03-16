@@ -25,7 +25,7 @@ public class DotaDBHelper {
 		mContext = context;
 		assets = mContext.getAssets();
 		dh = new DatabaseHelper(mContext);
-		db = get();
+		db = getWrite();
 		int position = 0;
 		try {
 			databaseexe = assets.list("");
@@ -74,8 +74,12 @@ public class DotaDBHelper {
 //		db.execSQL("CREATE TABLE IF NOT EXISTS `hero` ( `id` int(11) NOT NULL PRIMARY KEY, `zh_name` varchar(16) DEFAULT NULL, `zh_short` varchar(16) DEFAULT NULL, `en_name` varchar(32) DEFAULT NULL, `en_short` varchar(16) DEFAULT NULL, `avatar` varchar(32) DEFAULT NULL, `display` varchar(32) DEFAULT NULL, `tavern` char(4) DEFAULT NULL, `camp` char(2) DEFAULT NULL, `skilled_at` varchar(8) DEFAULT NULL, `complex_rate` varchar(2) DEFAULT NULL, `tags` varchar(64) DEFAULT NULL, `init_hp` int(11) DEFAULT NULL, `init_mp` int(11) DEFAULT NULL, `init_min_damage` int(11) DEFAULT NULL, `init_max_damage` int(11) DEFAULT NULL, `attack_range` int(11) DEFAULT NULL, `attack_speed` float(4,2) DEFAULT NULL, `attack_pre_anim` float(2,1) DEFAULT NULL, `attack_post_anim` float(2,1) DEFAULT NULL, `move_speed` int(11) DEFAULT NULL, `init_armor` int(11) DEFAULT NULL, `major_attr` varchar(3) DEFAULT NULL, `init_strenth` int(11) DEFAULT NULL, `init_agile` int(11) DEFAULT NULL, `init_intelligence` int(11) DEFAULT NULL, `inc_strenth` float(2,1) DEFAULT NULL, `inc_agile` float(2,1) DEFAULT NULL, `inc_intelligence` float(2,1) DEFAULT NULL, `dps_rank` int(11) DEFAULT NULL, `push_rank` int(11) DEFAULT NULL, `gank_rank` int(11) DEFAULT NULL, `support_rank` int(11) DEFAULT NULL, `tank_rank` int(11) DEFAULT NULL, `desc` varchar(512) DEFAULT NULL )");
 	}
 
-	public SQLiteDatabase get() {
+	public SQLiteDatabase getWrite() {
 		return dh.getWritableDatabase();
+	}
+	
+	public SQLiteDatabase getRead() {
+		return dh.getReadableDatabase();
 	}
 	
 	private static class DatabaseHelper extends SQLiteOpenHelper {
