@@ -5,7 +5,7 @@
     <View android:id="@+id/header"
         android:layout_width="match_parent"
         android:layout_height="45dp"
-        android:background="#00ff00"/>
+        android:background="@drawable/ps_intro_top_menu_bg"/>
 
     <ScrollView
         android:layout_width="match_parent"

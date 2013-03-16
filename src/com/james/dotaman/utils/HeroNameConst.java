@@ -73,6 +73,66 @@ public interface HeroNameConst {
 	
 	
 	//
+	public static final String AXE = "axe";
+	public static final String CK = "ck";
+	public static final String DOOM = "doom";
+	public static final String NAIX = "naix";
+	public static final String LOA = "loa";
+	public static final String LYC = "lyc";
+	public static final String NS = "ns";
+	public static final String PL = "pl";
+	public static final String PUDGE = "pudge";
+	public static final String SNK = "snk";
+	public static final String SG = "sg";
+	public static final String UD = "ud";
+	
+	public static final String TH = "th";
+	public static final String MAG = "mag";
+	public static final String SB = "sb";
+	public static final String SK = "sk";
+	
+	
 	//
+	public static final String BS = "bs";
+	public static final String BONE = "bone";
+	public static final String BR = "br";
+	public static final String NA = "na";
+	public static final String NW = "nw";
+	public static final String PA = "pa";
+	public static final String SF = "sf";
+	public static final String TB = "tb";
+	public static final String SPE = "spe";
+	public static final String VEON = "veon";
+	public static final String VIP = "vip";
+	public static final String MEEPO = "meepo";
+	
+	public static final String RAZOR = "razor";
+	public static final String MED = "med";
+	public static final String NC = "nc";
+	public static final String FV = "fv";
+	public static final String AW = "aw";
+	
+	
 	//
+	public static final String BANE = "bane";
+	public static final String DS = "ds";
+	public static final String DP = "dp";
+	public static final String LION = "lion";
+	public static final String ENIGMA = "enigma";
+	public static final String LICH = "lich";
+	public static final String NEC = "nec";
+	public static final String PUGNA = "pugna";
+	public static final String DES = "des";
+	public static final String QOP = "qop";
+	public static final String WL = "wl";
+	public static final String EREDAR = "eredar";
+	
+	public static final String BAT = "bat";
+	public static final String SP = "sp";
+	public static final String KAEL = "kael";
+	public static final String VISAGE = "visage";
+	public static final String TS = "ts";
+	public static final String WD = "wd";
+	public static final String AA = "aa";
+	public static final String WW = "ww";
 }

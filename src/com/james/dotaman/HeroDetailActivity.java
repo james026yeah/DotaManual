@@ -66,7 +66,7 @@ public class HeroDetailActivity extends Activity {
 			}
 		});
         mAdContainer.addView(adView320x50);
-        mAdContainer.setVisibility(View.GONE);
+//        mAdContainer.setVisibility(View.GONE);
     }
 
     

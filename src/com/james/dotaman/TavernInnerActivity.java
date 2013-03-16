@@ -14,7 +14,7 @@ import android.widget.RelativeLayout;
 public class TavernInnerActivity extends Activity {
 
 	private Intent mToDetailIntent;
-	private String mWhichTavern;
+	private int mCurrentTavernId;
 	private int mLayoutId;
 	private RelativeLayout mAdContainer;
 	private DomobAdView adView320x50;

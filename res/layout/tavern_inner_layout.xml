@@ -1,11 +1,12 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:background="#000000" >
     <View android:id="@+id/header"
         android:layout_width="match_parent"
         android:layout_height="45dp"
-        android:background="#00ff00"/>
+        android:background="@drawable/ps_intro_top_menu_bg"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -26,6 +27,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="力量（近卫酒馆一）"
+                android:textColor="#FFFFFF"
                 android:textSize="20dp" />
 
             <TableLayout
@@ -46,7 +48,7 @@
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:onClick="doClick"
-                        android:src="@drawable/kunkka" />
+                        android:src="@drawable/hero_icon_back" />
 
                     <ImageView
                         android:layout_width="0dip"
@@ -54,7 +56,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/bm" />
+                        android:src="@drawable/hero_icon_back" />
 
                     <ImageView
                         android:layout_width="0dip"
@@ -62,7 +64,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/cent" />
+                        android:src="@drawable/hero_icon_back" />
 
                     <ImageView
                         android:layout_width="0dip"
@@ -70,7 +72,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/es" />
+                        android:src="@drawable/hero_icon_back" />
                 </TableRow>
 
                 <TableRow android:paddingBottom="15dp" >
@@ -81,7 +83,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/ok" />
+                        android:src="@drawable/hero_icon_back" />
 
                     <ImageView
                         android:layout_width="0dip"
@@ -89,7 +91,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/panda" />
+                        android:src="@drawable/hero_icon_back" />
 
                     <ImageView
                         android:layout_width="0dip"
@@ -97,7 +99,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/sevn" />
+                        android:src="@drawable/hero_icon_back" />
 
                     <ImageView
                         android:layout_width="0dip"
@@ -105,7 +107,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/tiny" />
+                        android:src="@drawable/hero_icon_back" />
                 </TableRow>
 
                 <TableRow android:paddingBottom="15dp" >
@@ -116,7 +118,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/tc" />
+                        android:src="@drawable/hero_icon_back" />
 
                     <ImageView
                         android:layout_width="0dip"
@@ -124,7 +126,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/tp" />
+                        android:src="@drawable/hero_icon_back" />
 
                     <ImageView
                         android:layout_width="0dip"
@@ -132,7 +134,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/wisp" />
+                        android:src="@drawable/hero_icon_back" />
 
                     <ImageView
                         android:layout_width="0dip"
@@ -140,7 +142,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/alch" />
+                        android:src="@drawable/hero_icon_back" />
                 </TableRow>
             </TableLayout>
 
@@ -149,6 +151,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="力量（近卫酒馆二）"
+                android:textColor="#FFFFFF"
                 android:textSize="20dp" />
 
             <TableLayout
@@ -169,7 +172,7 @@
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
                         android:onClick="doClick"
-                        android:src="@drawable/kunkka" />
+                        android:src="@drawable/hero_icon_back" />
 
                     <ImageView
                         android:layout_width="0dip"
@@ -177,7 +180,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/bm" />
+                        android:src="@drawable/hero_icon_back" />
 
                     <ImageView
                         android:layout_width="0dip"
@@ -185,7 +188,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/cent" />
+                        android:src="@drawable/hero_icon_back" />
 
                     <ImageView
                         android:layout_width="0dip"
@@ -193,7 +196,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/es" />
+                        android:src="@drawable/hero_icon_back" />
                 </TableRow>
 
                 <TableRow android:paddingBottom="15dp" >
@@ -204,7 +207,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/ok" />
+                        android:src="@drawable/hero_icon_back" />
 
                     <ImageView
                         android:layout_width="0dip"
@@ -212,7 +215,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/panda" />
+                        android:src="@drawable/hero_icon_back" />
 
                     <ImageView
                         android:layout_width="0dip"
@@ -220,7 +223,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/sevn" />
+                        android:src="@drawable/hero_icon_back" />
 
                     <ImageView
                         android:layout_width="0dip"
@@ -228,7 +231,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/tiny" />
+                        android:src="@drawable/hero_icon_back" />
                 </TableRow>
 
                 <TableRow android:paddingBottom="15dp" >
@@ -239,7 +242,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/tc" />
+                        android:src="@drawable/hero_icon_back" />
 
                     <ImageView
                         android:layout_width="0dip"
@@ -247,7 +250,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/tp" />
+                        android:src="@drawable/hero_icon_back" />
 
                     <ImageView
                         android:layout_width="0dip"
@@ -255,7 +258,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/wisp" />
+                        android:src="@drawable/hero_icon_back" />
 
                     <ImageView
                         android:layout_width="0dip"
@@ -263,7 +266,7 @@
                         android:layout_weight="1"
                         android:clickable="true"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/alch" />
+                        android:src="@drawable/hero_icon_back" />
                 </TableRow>
             </TableLayout>
         </LinearLayout>
