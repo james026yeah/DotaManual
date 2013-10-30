@@ -49,14 +49,14 @@ public class DotaManActivity extends Activity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
 //        mSQLiteDatabase = this.openOrCreateDatabase("hero.db", MODE_PRIVATE, null);
-        new Thread(new Runnable() {
-			
-			@Override
-			public void run() {
-				// TODO Auto-generated method stub
-				mDotaDBHelper = new DotaDBHelper(getApplicationContext());
-			}
-		}).start();
+//        new Thread(new Runnable() {
+//			
+//			@Override
+//			public void run() {
+//				// TODO Auto-generated method stub
+//				mDotaDBHelper = new DotaDBHelper(getApplicationContext());
+//			}
+//		}).start();
         setContentView(R.layout.main_layout);
         initViewPager();
     }

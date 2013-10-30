@@ -28,7 +28,7 @@ public class HeroDetailActivity extends Activity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.hero_detail_layout);
-        mHeroDatabase = this.openOrCreateDatabase("test.db", MODE_PRIVATE, null);
+//        mHeroDatabase = this.openOrCreateDatabase("test.db", MODE_PRIVATE, null);
         mAdContainer = (RelativeLayout) findViewById(R.id.adcontainer);
         adView320x50 = new DomobAdView(this, "56OJyM1ouMGoaSnvCK", DomobAdView.INLINE_SIZE_320X50);
         adView320x50.setKeyword("game");
